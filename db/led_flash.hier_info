@@ -1,0 +1,37 @@
+|led_flash
+sys_clk => clk.CLK
+sys_clk => num[0].CLK
+sys_clk => num[1].CLK
+sys_clk => num[2].CLK
+sys_clk => num[3].CLK
+sys_clk => num[4].CLK
+sys_clk => num[5].CLK
+sys_clk => num[6].CLK
+sys_clk => num[7].CLK
+sys_clk => num[8].CLK
+sys_clk => num[9].CLK
+sys_clk => num[10].CLK
+sys_clk => num[11].CLK
+sys_clk => num[12].CLK
+sys_clk => num[13].CLK
+sys_clk => num[14].CLK
+sys_clk => num[15].CLK
+sys_clk => num[16].CLK
+sys_clk => num[17].CLK
+sys_clk => num[18].CLK
+sys_clk => num[19].CLK
+sys_clk => num[20].CLK
+sys_clk => num[21].CLK
+sys_clk => num[22].CLK
+sys_clk => num[23].CLK
+sys_clk => num[24].CLK
+led[0] <= Mux7.DB_MAX_OUTPUT_PORT_TYPE
+led[1] <= Mux6.DB_MAX_OUTPUT_PORT_TYPE
+led[2] <= Mux5.DB_MAX_OUTPUT_PORT_TYPE
+led[3] <= Mux4.DB_MAX_OUTPUT_PORT_TYPE
+led[4] <= Mux3.DB_MAX_OUTPUT_PORT_TYPE
+led[5] <= Mux2.DB_MAX_OUTPUT_PORT_TYPE
+led[6] <= Mux1.DB_MAX_OUTPUT_PORT_TYPE
+led[7] <= Mux0.DB_MAX_OUTPUT_PORT_TYPE
+
+

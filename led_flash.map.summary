@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Mon Jan 11 17:23:40 2021
+Quartus II Version : 9.1 Build 222 10/21/2009 SJ Full Version
+Revision Name : led_flash
+Top-level Entity Name : led_flash
+Family : Cyclone III
+Total logic elements : 56
+    Total combinational functions : 56
+    Dedicated logic registers : 29
+Total registers : 29
+Total pins : 9
+Total virtual pins : 0
+Total memory bits : 0
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0

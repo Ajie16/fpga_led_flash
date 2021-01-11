@@ -1,0 +1,204 @@
+Simulator report for led_flash
+Mon Dec 28 19:08:56 2020
+Quartus II Version 9.1 Build 222 10/21/2009 SJ Full Version
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Simulator Summary
+  3. Simulator Settings
+  4. Simulation Waveforms
+  5. Coverage Summary
+  6. Complete 1/0-Value Coverage
+  7. Missing 1-Value Coverage
+  8. Missing 0-Value Coverage
+  9. Simulator INI Usage
+ 10. Simulator Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2009 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+
+
+
++--------------------------------------------+
+; Simulator Summary                          ;
++-----------------------------+--------------+
+; Type                        ; Value        ;
++-----------------------------+--------------+
+; Simulation Start Time       ; 0 ps         ;
+; Simulation End Time         ; 1.0 us       ;
+; Simulation Netlist Size     ; 41 nodes     ;
+; Simulation Coverage         ;     100.00 % ;
+; Total Number of Transitions ; 1330         ;
+; Simulation Breakpoints      ; 0            ;
+; Family                      ; Cyclone III  ;
+; Device                      ; EP3C55F484C8 ;
++-----------------------------+--------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------+
+; Simulator Settings                                                                                                      ;
++--------------------------------------------------------------------------------------------+------------+---------------+
+; Option                                                                                     ; Setting    ; Default Value ;
++--------------------------------------------------------------------------------------------+------------+---------------+
+; Simulation mode                                                                            ; Timing     ; Timing        ;
+; Start time                                                                                 ; 0 ns       ; 0 ns          ;
+; Simulation results format                                                                  ; CVWF       ;               ;
+; Add pins automatically to simulation output waveforms                                      ; On         ; On            ;
+; Check outputs                                                                              ; Off        ; Off           ;
+; Report simulation coverage                                                                 ; On         ; On            ;
+; Display complete 1/0 value coverage report                                                 ; On         ; On            ;
+; Display missing 1-value coverage report                                                    ; On         ; On            ;
+; Display missing 0-value coverage report                                                    ; On         ; On            ;
+; Detect setup and hold time violations                                                      ; Off        ; Off           ;
+; Detect glitches                                                                            ; Off        ; Off           ;
+; Disable timing delays in Timing Simulation                                                 ; Off        ; Off           ;
+; Generate Signal Activity File                                                              ; Off        ; Off           ;
+; Generate VCD File for PowerPlay Power Analyzer                                             ; Off        ; Off           ;
+; Group bus channels in simulation results                                                   ; Off        ; Off           ;
+; Preserve fewer signal transitions to reduce memory requirements                            ; On         ; On            ;
+; Trigger vector comparison with the specified mode                                          ; INPUT_EDGE ; INPUT_EDGE    ;
+; Disable setup and hold time violations detection in input registers of bi-directional pins ; Off        ; Off           ;
+; Overwrite Waveform Inputs With Simulation Outputs                                          ; Off        ;               ;
+; Perform Glitch Filtering in Timing Simulation                                              ; Auto       ; Auto          ;
+; Interconnect Delay Model Type                                                              ; Transport  ; Transport     ;
+; Cell Delay Model Type                                                                      ; Transport  ; Transport     ;
++--------------------------------------------------------------------------------------------+------------+---------------+
+
+
++----------------------+
+; Simulation Waveforms ;
++----------------------+
+Waveform report data cannot be output to ASCII.
+Please use Quartus II to view the waveform report data.
+
+
++--------------------------------------------------------------------+
+; Coverage Summary                                                   ;
++-----------------------------------------------------+--------------+
+; Type                                                ; Value        ;
++-----------------------------------------------------+--------------+
+; Total coverage as a percentage                      ;     100.00 % ;
+; Total nodes checked                                 ; 41           ;
+; Total output ports checked                          ; 41           ;
+; Total output ports with complete 1/0-value coverage ; 41           ;
+; Total output ports with no 1/0-value coverage       ; 0            ;
+; Total output ports with no 1-value coverage         ; 0            ;
+; Total output ports with no 0-value coverage         ; 0            ;
++-----------------------------------------------------+--------------+
+
+
+The following table displays output ports that toggle between 1 and 0 during simulation.
++--------------------------------------------------------------------------------------+
+; Complete 1/0-Value Coverage                                                          ;
++---------------------------------+---------------------------------+------------------+
+; Node Name                       ; Output Port Name                ; Output Port Type ;
++---------------------------------+---------------------------------+------------------+
+; |led_flash|n[2]                 ; |led_flash|n[2]                 ; q                ;
+; |led_flash|n[1]                 ; |led_flash|n[1]                 ; q                ;
+; |led_flash|n[0]                 ; |led_flash|n[0]                 ; q                ;
+; |led_flash|Mux0~0               ; |led_flash|Mux0~0               ; combout          ;
+; |led_flash|Mux0~1               ; |led_flash|Mux0~1               ; combout          ;
+; |led_flash|Mux0~2               ; |led_flash|Mux0~2               ; combout          ;
+; |led_flash|Mux0~3               ; |led_flash|Mux0~3               ; combout          ;
+; |led_flash|Mux0~4               ; |led_flash|Mux0~4               ; combout          ;
+; |led_flash|Mux0~5               ; |led_flash|Mux0~5               ; combout          ;
+; |led_flash|Mux0~6               ; |led_flash|Mux0~6               ; combout          ;
+; |led_flash|Mux0~7               ; |led_flash|Mux0~7               ; combout          ;
+; |led_flash|n[2]~0               ; |led_flash|n[2]~0               ; combout          ;
+; |led_flash|clk                  ; |led_flash|clk                  ; q                ;
+; |led_flash|n[1]~1               ; |led_flash|n[1]~1               ; combout          ;
+; |led_flash|num[0]               ; |led_flash|num[0]               ; q                ;
+; |led_flash|num[1]               ; |led_flash|num[1]               ; q                ;
+; |led_flash|clk~0                ; |led_flash|clk~0                ; combout          ;
+; |led_flash|num~0                ; |led_flash|num~0                ; combout          ;
+; |led_flash|num[1]~1             ; |led_flash|num[1]~1             ; combout          ;
+; |led_flash|n[0]~2               ; |led_flash|n[0]~2               ; combout          ;
+; |led_flash|led[0]~output        ; |led_flash|led[0]~output        ; o                ;
+; |led_flash|led[0]               ; |led_flash|led[0]               ; padout           ;
+; |led_flash|led[1]~output        ; |led_flash|led[1]~output        ; o                ;
+; |led_flash|led[1]               ; |led_flash|led[1]               ; padout           ;
+; |led_flash|led[2]~output        ; |led_flash|led[2]~output        ; o                ;
+; |led_flash|led[2]               ; |led_flash|led[2]               ; padout           ;
+; |led_flash|led[3]~output        ; |led_flash|led[3]~output        ; o                ;
+; |led_flash|led[3]               ; |led_flash|led[3]               ; padout           ;
+; |led_flash|led[4]~output        ; |led_flash|led[4]~output        ; o                ;
+; |led_flash|led[4]               ; |led_flash|led[4]               ; padout           ;
+; |led_flash|led[5]~output        ; |led_flash|led[5]~output        ; o                ;
+; |led_flash|led[5]               ; |led_flash|led[5]               ; padout           ;
+; |led_flash|led[6]~output        ; |led_flash|led[6]~output        ; o                ;
+; |led_flash|led[6]               ; |led_flash|led[6]               ; padout           ;
+; |led_flash|led[7]~output        ; |led_flash|led[7]~output        ; o                ;
+; |led_flash|led[7]               ; |led_flash|led[7]               ; padout           ;
+; |led_flash|sys_clk~input        ; |led_flash|sys_clk~input        ; o                ;
+; |led_flash|sys_clk              ; |led_flash|sys_clk              ; padout           ;
+; |led_flash|sys_clk~inputclkctrl ; |led_flash|sys_clk~inputclkctrl ; outclk           ;
+; |led_flash|clk~clkctrl          ; |led_flash|clk~clkctrl          ; outclk           ;
+; |led_flash|clk~feeder           ; |led_flash|clk~feeder           ; combout          ;
++---------------------------------+---------------------------------+------------------+
+
+
+The following table displays output ports that do not toggle to 1 during simulation.
++-------------------------------------------------+
+; Missing 1-Value Coverage                        ;
++-----------+------------------+------------------+
+; Node Name ; Output Port Name ; Output Port Type ;
++-----------+------------------+------------------+
+
+
+The following table displays output ports that do not toggle to 0 during simulation.
++-------------------------------------------------+
+; Missing 0-Value Coverage                        ;
++-----------+------------------+------------------+
+; Node Name ; Output Port Name ; Output Port Type ;
++-----------+------------------+------------------+
+
+
++---------------------+
+; Simulator INI Usage ;
++--------+------------+
+; Option ; Usage      ;
++--------+------------+
+
+
++--------------------+
+; Simulator Messages ;
++--------------------+
+Info: *******************************************************************
+Info: Running Quartus II Simulator
+    Info: Version 9.1 Build 222 10/21/2009 SJ Full Version
+    Info: Processing started: Mon Dec 28 19:08:56 2020
+Info: Command: quartus_sim --read_settings_files=on --write_settings_files=off led_flash -c led_flash
+Info: Using vector source file "C:/Users/ajie/Desktop/led_flash/led_flash.vwf"
+Info: Inverted registers were found during simulation
+    Info: Register: |led_flash|num[0]
+Info: Option to preserve fewer signal transitions to reduce memory requirements is enabled
+    Info: Simulation has been partitioned into sub-simulations according to the maximum transition count determined by the engine. Transitions from memory will be flushed out to disk at the end of each sub-simulation to reduce memory requirements.
+Info: Simulation partitioned into 1 sub-simulations
+Info: Simulation coverage is     100.00 %
+Info: Number of transitions in simulation is 1330
+Info: Quartus II Simulator was successful. 0 errors, 0 warnings
+    Info: Peak virtual memory: 169 megabytes
+    Info: Processing ended: Mon Dec 28 19:08:56 2020
+    Info: Elapsed time: 00:00:00
+    Info: Total CPU time (on all processors): 00:00:00
+
+
